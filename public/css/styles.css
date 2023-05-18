@@ -1,0 +1,45 @@
+.container{
+    height: 450px;
+    width: 400px;
+    margin: 0 auto;
+    position: relative;
+    top: 60px;
+    padding: 20px;
+    text-align: center;
+    background-color: #eee;
+    border-radius: 15px;
+}
+
+.w-name{
+    text-align: center;
+}
+.user{
+    width: 300px;
+    padding: 20px;
+    margin-bottom: 20px;
+    text-decoration: none;
+    border: none;
+    border-radius: 15px;
+    
+}
+.pwd{
+    width: 300px;
+    padding: 20px;
+    margin-bottom: 20px;
+    text-decoration: none;
+    border: none;
+    border-radius: 15px;
+}
+.signin{
+    width: 200px;
+    height: 50px;
+    text-align: center;
+    font-size: 20px;
+    cursor: pointer;
+    border: none;
+    font-family: 'Noto Sans', sans-serif;
+    background-color: #ce1212;
+    padding: 12px 11px;
+    color: #ffffff;
+    border-radius: 40px;
+}
