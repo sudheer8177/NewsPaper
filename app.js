@@ -59,11 +59,11 @@ app.post("/",(req,res)=>{
         })
 
 
-        res.send("<h1>successFull</h1>");
+        res.send("");
 
     })
 
-    request.write(JsonData);
+    request.write(JsonData); 
     request.end();
 
 
